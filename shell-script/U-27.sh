@@ -1,3 +1,8 @@
+#################################
+# U-27. RPC 서비스 확인          #
+# - Ansible 단계에서 Error 발생. #
+#################################
+
 #!/bin/bash
 
 U_27=("/etc/xinetd.d/rpc.cmsd" "/etc/xinetd.d/ttdbserverd" "/etc/xinetd.d/sadmind" "/etc/xinetd.d/rusersd" "/etc/xinetd.d/wald" "/etc/xinetd.d/sprayd" "/etc/xinetd.d/rstatd" "/etc/xinetd.d/rpc.nisd" "/etc/xinetd.d/rexd" "/etc/xinetd.d/rpc.pcnfsd" "/etc/xinetd.d/rpc.statd" "/etc/xinetd.d/rpc.ypupdated" "/etc/xinetd.d/rpc.rquotad" "/etc/xinetd.d/kcms_server" "/etc/xinetd.d/cachefsd")
