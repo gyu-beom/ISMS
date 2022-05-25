@@ -1,3 +1,7 @@
+############################
+# U-30. Sendmail 버전 점검 #
+###########################
+
 #!/bin/bash
 
 U_30=$(ps -ef | grep "sendmail" | grep -v 'grep' | awk '{ print $2 }')
