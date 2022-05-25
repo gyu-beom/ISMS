@@ -1,3 +1,8 @@
+###################################
+# U-29. tftp, talk 서비스 비활성화 #
+# - Ansible 단계에서 Error 발생.   #
+###################################
+
 #!/bin/bash
 
 U_29=("/etc/xinetd.d/tftp" "/etc/xinetd.d/talk" "/etc/xinetd.d/ntalk")
