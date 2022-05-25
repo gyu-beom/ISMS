@@ -1,3 +1,7 @@
+#########################################
+# U-23. DoS 공격에 취약한 서비스 비활성화 #
+#########################################
+
 #!/bin/bash
 
 U_23=("/etc/xinetd.d/echo" "/etc/xinetd.d/discard" "/etc/xinetd.d/daytime" "/etc/xinetd.d/chargen")
