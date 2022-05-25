@@ -1,3 +1,7 @@
+#
+# U-11. /etc/(x)inetd.conf 파일 소유자 및 권한 설정 #
+#
+
 #!/bin/bash
 
 PERMISSION=$(ls -l /etc/xinetd.conf | cut -d" " -f1 | sed -'s/-//')
