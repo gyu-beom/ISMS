@@ -1,3 +1,7 @@
+########################
+# U-28. NIS, NIS+ 점검 #
+#######################
+
 #!/bin/bash
 
 U_28=$(ps -ef | grep "ypserv|ypbind|ypxfrd|rpc.yppasswdd|rpc.ypupdated" | grep -v 'grep' | awk '{ print $2 }')
