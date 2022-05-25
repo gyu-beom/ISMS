@@ -1,3 +1,7 @@
+###############################
+# U-20. Finger 서비스 비활성화 #
+###############################
+
 #!/bin/bash
 
 cat /etc/xinetd.d/finger | grep disable
