@@ -1,3 +1,7 @@
+###############################
+# U-22. r 계열 서비스 비활성화 #
+##############################
+
 #!/bin/bash
 
 U_22=("/etc/xinetd.d/rlogin" "/etc/xinetd.d/rsh" "/etc/xinetd.d/rexec")
