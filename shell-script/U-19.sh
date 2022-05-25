@@ -1,3 +1,7 @@
+######################################
+# U-19. cron 파일 소유자 및 권한 설정 #
+#####################################
+
 #!/bin/bash
 
 CHECKLIST="/etc/crontab /etc/cron.allow /etc/cron.deny"
