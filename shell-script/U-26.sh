@@ -1,3 +1,7 @@
+#########################
+# U-26. automountd 제거 #
+########################
+
 #!/bin/bash
 
 U_26=$(ps -ef | grep "auto" | grep -v 'grep' | awk '{ print $2 }')
